@@ -9,4 +9,5 @@ public class ConstantStrings
 	// GameObject names
 	public const string CAMERAPARENT = "CameraParent";
 	public const string LIGHTCONTROLLER = "LightController";
+	public const string LOCATEFLOORCANVAS = "LocateFloorCanvas";
 }

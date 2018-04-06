@@ -13,7 +13,7 @@ public class GameObjectEnabler : MonoBehaviour
 
 	[SerializeField]
 	private List<GameObject> _sceneCameras = new List<GameObject>();
-	private List<GameObject> _currentlyUsedCameras;
+	private List<GameObject> _currentlyUsedCameras = new List<GameObject>();
 
 	[Header("Lights")]
 	[SerializeField]
@@ -21,7 +21,7 @@ public class GameObjectEnabler : MonoBehaviour
 
 	[SerializeField]
 	private List<GameObject> _sceneLights = new List<GameObject>();
-	private List<GameObject> _currentlyUsedLights;
+	private List<GameObject> _currentlyUsedLights = new List<GameObject>();
 
 	void Awake()
 	{
