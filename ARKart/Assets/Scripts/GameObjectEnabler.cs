@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class GameObjectEnabler : MonoBehaviour 
 {
+	public enum NeededObject { Camera, 
+							Light };
+
 	[Header("Cameras")]
 	[SerializeField]
 	private GameObject _cameraParent;
 
 	[SerializeField]
 	private List<GameObject> _sceneCameras = new List<GameObject>();
+	private List<GameObject> _currentlyUsedCameras;
 
 	[Header("Lights")]
 	[SerializeField]
@@ -17,6 +21,7 @@ public class GameObjectEnabler : MonoBehaviour
 
 	[SerializeField]
 	private List<GameObject> _sceneLights = new List<GameObject>();
+	private List<GameObject> _currentlyUsedLights;
 
 	void Awake()
 	{
@@ -34,6 +39,23 @@ public class GameObjectEnabler : MonoBehaviour
 		EnableObjects(ConstantStrings.ANDROID);
 
 		#endif
+	}
+
+	public List<GameObject> GetCurrentObjects(NeededObject obj)
+	{
+		switch(obj)
+		{
+			case NeededObject.Camera:
+				return _currentlyUsedCameras;
+			break;
+			case NeededObject.Light:
+				return _currentlyUsedLights;
+			break;
+			default:
+				Debug.LogWarning("GetCurrentObjects: Default enum shouldn't happen.");
+				return null;
+			break;
+		}
 	}
 
 	///<summary>
@@ -76,12 +98,14 @@ public class GameObjectEnabler : MonoBehaviour
 			Debug.Log("camera: " + camera);
 			bool isEnabled = (camera.layer == LayerMask.NameToLayer(deviceInUse)) ? true : false;
 			camera.SetActive(isEnabled);
+			_currentlyUsedCameras.Add(camera);
 		}
 
 		foreach (GameObject light in _sceneLights)
 		{
 			bool isEnabled = (light.layer == LayerMask.NameToLayer(deviceInUse)) ? true : false;
 			light.SetActive(isEnabled);
+			_currentlyUsedLights.Add(light);
 		}
 	}
 }
