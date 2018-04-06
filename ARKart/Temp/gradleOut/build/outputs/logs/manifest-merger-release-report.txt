@@ -33,8 +33,8 @@ ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOu
 		ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
 application
 ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-19:17
-MERGED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:28:5-42:19
-MERGED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:7:5-9:19
+MERGED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:28:5-42:19
+MERGED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:7:5-9:19
 	android:label
 		ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:4:92-124
 	android:icon
@@ -115,11 +115,11 @@ ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOu
 		ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:18:16-49
 uses-sdk
 ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:20:3-72
-MERGED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:25:5-44
-MERGED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:26:5-47
-MERGED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:6:5-43
-MERGED from [:unityandroidpermissions:] /Users/misi/.android/build-cache/16004022aafb3d889383c6878427dd2e52ef6ce0/output/AndroidManifest.xml:11:5-13:41
-MERGED from [:unitygar:] /Users/misi/.android/build-cache/ee0f4918708a632900aecfb29a45afbb3ec9e2b2/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:25:5-44
+MERGED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:26:5-47
+MERGED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:6:5-43
+MERGED from [:unityandroidpermissions:] /Users/misi/.android/build-cache/47470b470d4747192f143c415c078f600704effd/output/AndroidManifest.xml:11:5-13:41
+MERGED from [:unitygar:] /Users/misi/.android/build-cache/f83fde9aa6adee2ba20ad103c430b7448b10abff/output/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:20:40-69
 		INJECTED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml
@@ -154,34 +154,34 @@ ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOu
 	android:name
 		ADDED from /Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/AndroidManifest.xml:25:17-80
 activity#com.google.ar.core.InstallActivity
-ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:31:9-37:80
+ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:31:9-37:80
 	android:excludeFromRecents
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:34:13-46
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:34:13-46
 	android:launchMode
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:36:13-43
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:36:13-43
 	android:exported
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:35:13-37
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:35:13-37
 	android:configChanges
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:33:13-74
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:33:13-74
 	android:theme
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:37:13-77
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:37:13-77
 	android:name
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:32:13-62
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:32:13-62
 meta-data#com.google.ar.core.min_apk_version
-ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:39:9-41:41
+ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:39:9-41:41
 	android:value
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:41:13-38
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:41:13-38
 	android:name
-		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/c9eb85215d6d094e0d43e784765dd85636b7916f/output/AndroidManifest.xml:40:13-62
+		ADDED from [:arcore_client:] /Users/misi/.android/build-cache/54a0a5038ac4e96d9c66e68f0e4cf06824b55144/output/AndroidManifest.xml:40:13-62
 meta-data#com.google.ar.core
-ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:8:9-81
+ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:8:9-81
 	android:value
-		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:8:54-78
+		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:8:54-78
 	android:name
-		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:8:20-53
+		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:8:20-53
 uses-feature#android.hardware.camera.ar
-ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:10:5-86
+ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:10:5-86
 	android:required
-		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:10:61-84
+		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:10:61-84
 	android:name
-		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/55407c5616fa800c098c43afb1420fd9502afd95/output/AndroidManifest.xml:10:19-60
+		ADDED from [:google_ar_required:] /Users/misi/.android/build-cache/57bc0d8440444ea7b6d75af0133ef49053abc19c/output/AndroidManifest.xml:10:19-60

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GameObjectEnabler : MonoBehaviour 
 {
-	public enum NeededObject { Camera, 
-							Light };
 
 	[Header("Cameras")]
 	[SerializeField]
@@ -41,14 +39,14 @@ public class GameObjectEnabler : MonoBehaviour
 		#endif
 	}
 
-	public List<GameObject> GetCurrentObjects(NeededObject obj)
+	public List<GameObject> GetCurrentObjects(GameEnums.NeededObject obj)
 	{
 		switch(obj)
 		{
-			case NeededObject.Camera:
+			case GameEnums.NeededObject.Camera:
 				return _currentlyUsedCameras;
 			break;
-			case NeededObject.Light:
+			case GameEnums.NeededObject.Light:
 				return _currentlyUsedLights;
 			break;
 			default:
