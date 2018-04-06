@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/misi/.android/build-cache/1c70e236274c75f80191be19aa7933617f217150/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="448cd9e15d90e66e4b1e8e3f02e4c953f44c6f31">
+        <dex dex="/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_fa070a9369773d2e792725d004a7da03bad508b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="997bed8c5290bdbae5c8767ba09af501f19e1c08">
+        <dex dex="/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/build/intermediates/pre-dexed/release/unity-classes_7440bbffcc208a4e9a2e05b2b08fc10b4c7aee6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/misi/.android/build-cache/574d128535e214b85c553b20aeef93828fdbe059/output/jars/libs/tango_java_lib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dac29b41332a170a55310a99e3e2f3058e3ac419">
+        <dex dex="/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/build/intermediates/pre-dexed/release/tango_java_lib_8d75b95eb1705cd60bfbaf82fa6e39984b239050.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/misi/.android/build-cache/574d128535e214b85c553b20aeef93828fdbe059/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3b08b853fe85764387602ff10decaf2b449f4ea2">
+        <dex dex="/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_0484136c5d4fde33de16cef93a9aea5dbf21e205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/misi/.android/build-cache/6bd1d3c25c8a9ddcfd0ae0782c46f53dfc8da47f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="be35cfb98dbf80214072c4eb41da843fb0d4400d">
+        <dex dex="/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_526a1f824c01e01547a390c2753300444e2cbbc6.jar" />
+    </item>
+
+</items>
