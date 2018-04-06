@@ -291,4 +291,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 8eb2443c71a17d7df9be0eaf3f3a993a Assembly-CSharp.dll:GoogleARCore.ARCoreSession
 0352182229dc15ceae98dd2533712b4a Assembly-CSharp.dll:GoogleARCore.ARCoreBackgroundRenderer
 25a45fa99fbcaf200a4fe1fe007bdc82 Assembly-CSharp.dll:.GameObjectEnabler
-0d55169578f4ee0d87436173aa22afe4 Assembly-CSharp.dll:.DetectPlanes
+b69ca308b58c044c81b39d8aa78fa6fc Assembly-CSharp.dll:.DetectPlanes

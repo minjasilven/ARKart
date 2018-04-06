@@ -10,10 +10,18 @@ using GoogleARCore.HelloAR;
  */
 public class DetectPlanes : MonoBehaviour 
 {
-	 public GameObject SearchingForPlaneUI;
+	enum InfoUI { SearchingForPlane, TapToPlace };
+
+	[SerializeField]
+	private GameObject TrackedPlanePrefab;
+
+	[SerializeField]
+	 private List<GameObject> _infoUI = new List<GameObject>();
+	 
+
 	 private List<TrackedPlane> m_NewPlanes = new List<TrackedPlane>();
 	 private List<TrackedPlane> m_AllPlanes = new List<TrackedPlane>();
-	 public GameObject TrackedPlanePrefab;
+	 
 	void Update()
 	{
 		// Check that motion tracking is tracking.
@@ -23,7 +31,7 @@ public class DetectPlanes : MonoBehaviour
                 Screen.sleepTimeout = lostTrackingSleepTimeout;
                 if (Session.Status.IsValid())
                 {
-                    SearchingForPlaneUI.SetActive(true);
+                    _infoUI[(int)InfoUI.SearchingForPlane].SetActive(true);
                 }
 
                 return;
@@ -55,6 +63,7 @@ public class DetectPlanes : MonoBehaviour
                 }
             }
 
-            SearchingForPlaneUI.SetActive(showSearchingUI);
+            _infoUI[(int)InfoUI.SearchingForPlane].SetActive(showSearchingUI);
+			_infoUI[(int)InfoUI.TapToPlace].SetActive(!showSearchingUI);
 	}
 }
