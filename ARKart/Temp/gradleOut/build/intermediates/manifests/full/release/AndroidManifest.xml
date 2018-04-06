@@ -62,7 +62,7 @@
             android:value="true" />
         <meta-data
             android:name="unity.build-id"
-            android:value="a64e7ecf-68e9-4942-974f-2dec3d7eee1f" />
+            android:value="ed4c0f3e-1ee3-4cb9-b86b-52060e0bad3e" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

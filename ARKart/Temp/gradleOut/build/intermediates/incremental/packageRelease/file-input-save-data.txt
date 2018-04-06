@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 06 17:46:26 EEST 2018
+#Fri Apr 06 18:25:10 EEST 2018
 60.set=ASSET
 52.set=NATIVE_RESOURCE
 53.base=/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/build/intermediates/assets/release

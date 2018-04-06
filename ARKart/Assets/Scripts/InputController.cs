@@ -11,9 +11,7 @@ public class InputController : MonoBehaviour
     public static TouchDetectedEvent TouchDetected;
 
     public GameObject _floorPlane;
-
-    public Text _text;
-
+    public GameObject _worldMenuCanvas;
     private Vector2 touchOrigin = -Vector2.one;
 
     private bool _startCapturingTouches = false;
@@ -21,7 +19,7 @@ public class InputController : MonoBehaviour
     void Awake()
     {
         DetectPlanes.CalibrationDone += OnCalibrationDone;
-        _text.text = "Awake";
+
     }
 
     void Update()
@@ -72,6 +70,7 @@ public class InputController : MonoBehaviour
         {
             var andyObject = Instantiate(_floorPlane, hit.Pose.position, hit.Pose.rotation);
 
+            var worldCanvas = Instantiate(_worldMenuCanvas, hit.Pose.position, hit.Pose.rotation);
             // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
             // world evolves.
             var anchor = hit.Trackable.CreateAnchor(hit.Pose);
@@ -84,11 +83,12 @@ public class InputController : MonoBehaviour
                 cameraPositionSameY.y = hit.Pose.position.y;
 
                 // Have Andy look toward the camera respecting his "up" perspective, which may be from ceiling.
-                andyObject.transform.LookAt(cameraPositionSameY, andyObject.transform.up);
+                worldCanvas.transform.LookAt(-cameraPositionSameY, worldCanvas.transform.up);
             }
 
             // Make Andy model a child of the anchor.
             andyObject.transform.parent = anchor.transform;
+            worldCanvas.transform.parent = anchor.transform;
         }
     }
 
