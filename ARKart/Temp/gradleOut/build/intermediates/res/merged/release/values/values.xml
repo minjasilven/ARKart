@@ -5,7 +5,7 @@
     <string name="__arcore_install_app">This application requires the latest version of ARCore.</string>
     <string name="__arcore_install_feature">This feature requires the latest version of ARCore.</string>
     <string name="__arcore_installing">Installing ARCore…</string>
-    <string name="app_name">ARKart</string>
+    <string name="app_name">ARKart2</string>
     <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
 </style>
     <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">

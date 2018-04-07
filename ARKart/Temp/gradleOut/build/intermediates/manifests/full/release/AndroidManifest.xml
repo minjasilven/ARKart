@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.minja.arkart"
+    package="com.minja.arkart2"
     android:installLocation="preferExternal"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -62,7 +62,7 @@
             android:value="true" />
         <meta-data
             android:name="unity.build-id"
-            android:value="7429bf79-7ec3-416d-a543-4edae6474258" />
+            android:value="d815eb9c-149e-4184-a739-8b7a7bf890d4" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />

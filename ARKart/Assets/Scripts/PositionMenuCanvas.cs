@@ -21,7 +21,8 @@ public class PositionMenuCanvas : MonoBehaviour
         var andyObject = Instantiate(_floorPlane, touch.Pose.position, touch.Pose.rotation);
 
         //var worldCanvas = Instantiate(_worldMenuCanvas, touch.Pose.position, touch.Pose.rotation);
-		_worldMenuCanvas.transform.position = new Vector3(touch.Pose.position.x, _worldMenuCanvas.transform.position.y, touch.Pose.position.z);
+        _worldMenuCanvas.transform.position = touch.Pose.position;
+		//_worldMenuCanvas.transform.rotation = touch.Pose.rotation;
 
 
         // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
@@ -35,19 +36,22 @@ public class PositionMenuCanvas : MonoBehaviour
             Vector3 cameraPositionSameY = Camera.main.transform.position;
             cameraPositionSameY.y = touch.Pose.position.y;
 
-			Vector3 cameraPos = new Vector3(Camera.main.transform.position.x,
+            /*Vector3 cameraPos = new Vector3(Camera.main.transform.position.x,
                                             _worldMenuCanvas.transform.position.y,
                                              Camera.main.transform.position.z);
-        _worldMenuCanvas.transform.LookAt(-cameraPos);
+        _worldMenuCanvas.transform.LookAt(-cameraPos);*/
 
             // Have Andy look toward the camera respecting his "up" perspective, which may be from ceiling.
-           // _worldMenuCanvas.transform.LookAt(-cameraPositionSameY, _worldMenuCanvas.transform.up);
+             //_worldMenuCanvas.transform.LookAt(-cameraPositionSameY, _worldMenuCanvas.transform.up);
         }
-
+        /*Vector3 cameraPos = new Vector3(Camera.main.transform.position.x,
+                                                    Camera.main.transform.position.y,
+                                                     Camera.main.transform.position.z);
+        _worldMenuCanvas.transform.LookAt(-cameraPos, _worldMenuCanvas.transform.up);*/
         // Make Andy model a child of the anchor.
         andyObject.transform.parent = anchor.transform;
         _worldMenuCanvas.transform.parent = anchor.transform;
 
-		_worldMenuCanvas.SetActive(true);
+        _worldMenuCanvas.SetActive(true);
     }
 }

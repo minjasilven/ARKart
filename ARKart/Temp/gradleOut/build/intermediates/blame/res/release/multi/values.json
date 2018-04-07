@@ -11,7 +11,7 @@
                     "endOffset": 101
                 },
                 "from": {
-                    "file": "/Users/misi/.android/build-cache/1939111372a6a6e91288cc1611ab78a5d4d97616/output/res/values/values.xml",
+                    "file": "/Users/misi/.android/build-cache/e2477cb3bccdb051843161081c5fe762a943c368/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -30,7 +30,7 @@
                     "endOffset": 156
                 },
                 "from": {
-                    "file": "/Users/misi/.android/build-cache/1939111372a6a6e91288cc1611ab78a5d4d97616/output/res/values/values.xml",
+                    "file": "/Users/misi/.android/build-cache/e2477cb3bccdb051843161081c5fe762a943c368/output/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -49,7 +49,7 @@
                     "endOffset": 261
                 },
                 "from": {
-                    "file": "/Users/misi/.android/build-cache/1939111372a6a6e91288cc1611ab78a5d4d97616/output/res/values/values.xml",
+                    "file": "/Users/misi/.android/build-cache/e2477cb3bccdb051843161081c5fe762a943c368/output/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -68,7 +68,7 @@
                     "endOffset": 366
                 },
                 "from": {
-                    "file": "/Users/misi/.android/build-cache/1939111372a6a6e91288cc1611ab78a5d4d97616/output/res/values/values.xml",
+                    "file": "/Users/misi/.android/build-cache/e2477cb3bccdb051843161081c5fe762a943c368/output/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -87,7 +87,7 @@
                     "endOffset": 433
                 },
                 "from": {
-                    "file": "/Users/misi/.android/build-cache/1939111372a6a6e91288cc1611ab78a5d4d97616/output/res/values/values.xml",
+                    "file": "/Users/misi/.android/build-cache/e2477cb3bccdb051843161081c5fe762a943c368/output/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -102,8 +102,8 @@
                     "startLine": 7,
                     "startColumn": 4,
                     "startOffset": 438,
-                    "endColumn": 43,
-                    "endOffset": 477
+                    "endColumn": 44,
+                    "endOffset": 478
                 },
                 "from": {
                     "file": "/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/res/values/strings.xml",
@@ -111,8 +111,8 @@
                         "startLine": 2,
                         "startColumn": 2,
                         "startOffset": 53,
-                        "endColumn": 41,
-                        "endOffset": 92
+                        "endColumn": 42,
+                        "endOffset": 93
                     }
                 }
             },
@@ -120,10 +120,10 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 482,
+                    "startOffset": 483,
                     "endLine": 9,
                     "endColumn": 8,
-                    "endOffset": 575
+                    "endOffset": 576
                 },
                 "from": {
                     "file": "/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/res/values/styles.xml",
@@ -141,10 +141,10 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 580,
+                    "startOffset": 581,
                     "endLine": 13,
                     "endColumn": 8,
-                    "endOffset": 802
+                    "endOffset": 803
                 },
                 "from": {
                     "file": "/Users/misi/Documents/GitHub/Own projects/ARKart/ARKart/Temp/gradleOut/src/main/res/values/styles.xml",

@@ -297,3 +297,5 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SetWorldSpaceCamera
 7c5ecc26dcbf162caf57185925b1e4bf Assembly-CSharp.dll:.PositionMenuCanvas
+6d1c317957179cf25168f2a8865e8f08 Assembly-CSharp.dll:.MainMenuButton
+4408c7f62da89e39fae97668017204df Assembly-CSharp.dll:.ChooseCarColorButton

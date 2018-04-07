@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 114013787959617552}
   m_Layer: 8
   m_Name: First Person Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 114903574576776068}
   m_Layer: 8
   m_Name: ARCore Device
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -466,11 +466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2863491d13a048b78cf15610af68585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _floorPlane: {fileID: 1278345158873878, guid: 734824bde42a3407aa4174c0a08f1147,
-    type: 2}
-  _worldMenuCanvas: {fileID: 1087192118342168, guid: 4c21a2c0bbadf4fb69a30f38167f0e48,
-    type: 2}
-  _text: {fileID: 0}
 --- !u!114 &114333482403686638
 MonoBehaviour:
   m_ObjectHideFlags: 1
