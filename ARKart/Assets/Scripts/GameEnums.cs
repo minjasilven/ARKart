@@ -6,5 +6,6 @@ public class GameEnums : MonoBehaviour
 {
 	public enum NeededObject { Camera, Light }
 	public enum GamePhase { CALIBRATION_PHASE, MENU_PHASE, DEFAULT };
+	public enum InfoUI { SearchingForPlane, TapToPlace };
 	
 }

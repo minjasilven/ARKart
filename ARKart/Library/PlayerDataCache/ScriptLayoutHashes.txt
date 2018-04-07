@@ -16,7 +16,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleARCore.Anchor
 25a45fa99fbcaf200a4fe1fe007bdc82 Assembly-CSharp.dll:.GameObjectEnabler
-f70b396c076953b5c3dd9158aeb86eb1 Assembly-CSharp.dll:.InputController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InputController
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -296,3 +296,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SetWorldSpaceCamera
+7c5ecc26dcbf162caf57185925b1e4bf Assembly-CSharp.dll:.PositionMenuCanvas

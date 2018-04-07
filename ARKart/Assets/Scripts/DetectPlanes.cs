@@ -12,7 +12,7 @@ using System;
 public class DetectPlanes : MonoBehaviour
 {
     #region Variables
-    enum InfoUI { SearchingForPlane, TapToPlace };
+    //enum InfoUI { SearchingForPlane, TapToPlace };
 
     [SerializeField]
     private GameObject TrackedPlanePrefab;
@@ -65,7 +65,7 @@ public class DetectPlanes : MonoBehaviour
             Screen.sleepTimeout = lostTrackingSleepTimeout;
             if (Session.Status.IsValid())
             {
-                _infoUI[(int)InfoUI.SearchingForPlane].SetActive(true);
+                _infoUI[(int)GameEnums.InfoUI.SearchingForPlane].SetActive(true);
             }
 
             return;
@@ -96,11 +96,11 @@ public class DetectPlanes : MonoBehaviour
             }
         }
 
-        _infoUI[(int)InfoUI.SearchingForPlane].SetActive(showSearchingUI);
+        _infoUI[(int)GameEnums.InfoUI.SearchingForPlane].SetActive(showSearchingUI);
 
         if(!showSearchingUI)
         {
-            _infoUI[(int)InfoUI.TapToPlace].SetActive(!showSearchingUI);
+            _infoUI[(int)GameEnums.InfoUI.TapToPlace].SetActive(!showSearchingUI);
 
             if(CalibrationDone != null)
                 CalibrationDone();
@@ -134,11 +134,11 @@ public class DetectPlanes : MonoBehaviour
         }
     }
 
-    private void OnTouchDetected(Vector3 touchPos)
+    private void OnTouchDetected(TrackableHit touch)
     {
         if(_calibrationDone)
         {
-            Instantiate(_floorPlane, touchPos, Quaternion.identity);
+            Instantiate(_floorPlane, touch.Pose.position, Quaternion.identity);
         }
     }
     #endregion
