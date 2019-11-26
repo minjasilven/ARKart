@@ -1,4 +1,4 @@
-# ARKart
+# ar-kart
 Augmented Reality car game started at code camp.
 
 ### Idea
